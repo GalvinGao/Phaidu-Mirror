@@ -9,7 +9,7 @@
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script>
     var url = "http://phaidu-ajax.ihw.today/algebraII.php"; $(".root").load(url);
-$(".img-rounded").on("touchstart",function(){$(this).addClass("hover")});$(".img-rounded").on("touchend",function(){$(this).removeClass("hover")});
+$("body").on("touchstart",function(){$(this).addClass("hover")});$("body").on("touchend",function(){$(this).removeClass("hover")});
     $(".root").html($(this).html().replace('class"', 'class="'));
     </script>
     <style>.navbar {
@@ -32,7 +32,7 @@ $(".img-rounded").on("touchstart",function(){$(this).addClass("hover")});$(".img
 
 body {
     background: url("http://image.qn.iblueg.cn/kuanpin041.jpg");
-    padding-top: 3em;
+    padding-top: 1em;
 }
 
 .modal-content {
