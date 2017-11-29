@@ -13,11 +13,11 @@ $("body").on("touchstart",function(){$(this).addClass("hover")});$("body").on("t
     $(".root").html($(this).html().replace('class"', 'class="'));
     </script>
     <style>.navbar {
-    margin: 3em 4em 1em 4em !important;
+    margin: 2em 1em 1em 4em !important;
     border-radius: 0 !important;
     background: none !important;
     border: 0 !important;
-    padding: 1em 0em 1em 15%;
+    padding: 1em 0em 1em 1em;
     text-align: center;
 }
 
@@ -60,15 +60,17 @@ body {
 }
 
 .navbar-left.navbar-nav.nav {
-    margin-right: 1em;
+    margin-right: 1.5em;
+	 -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
 }
 
-.root body {
-    font-family: Roboto, Apple SD Gothic Neo, Microsoft Yahei, Helvetica;
+body {
+    font-family: Product Sans, Roboto, Apple SD Gothic Neo, Microsoft Yahei, Helvetica !important;
 }
 
 .row:nth-of-type(1) > .col-sm-3:nth-of-type(1),.row:nth-of-type(1) > .col-sm-3:nth-of-type(2),.row:nth-of-type(1) > .col-sm-3:nth-of-type(3),.row:nth-of-type(1) > .col-sm-3:nth-of-type(4) {
-    margin-top: 3em;
+    margin-top: 1em;
     margin-bottom: 2em;
 } /* .row:nth-of-type(2) > .col-sm-3:nth-of-type(1),.row:nth-of-type(2) > .col-sm-3:nth-of-type(2),.row:nth-of-type(2) > .col-sm-3:nth-of-type(3),.row:nth-of-type(2) > .col-sm-3:nth-of-type(4) */
 
